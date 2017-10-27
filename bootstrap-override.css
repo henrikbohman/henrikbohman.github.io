@@ -3,29 +3,19 @@
 
 * {
   text-align: center;
-  font-family: Futura;
+  font-family: Futura, 'Lora';
   font-style: normal;
 }
 
-
 body {
-  background:#FEC0AA;
-}
-
-img {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   width: 72px;
-   height: 31px;
-   margin-top: -15px; /* Half the height */
-   margin-left: -31px; /* Half the width */
+    
 }
 
 
 h1 {
   color: #fff;
   font-size: 3em;
+  margin-bottom:40px;
 }
 
 h2 {
@@ -39,39 +29,93 @@ h3 {
   font-weight: bold;
   opacity: 0.5;
   letter-spacing: 1px;
+  margin-bottom: 40px;
 
 }
 
 p {
   font-size: 0.8em;
   color:#fff;
-  font-weight: regular;
+  font-weight: 300; 
 }
 
 #header {
   background:#FEC0AA;
 }
+  
+  a.navbar-brand {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .navbar-toggler {
+    border: 0px;
+  }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,78,32, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    }
+
+  .nav-link {
+    color: #EC4E20 !important;
+    text-decoration: underline;
+  }
 
 #splash {
   background:#FEC0AA;
   /* min-height: 576px; */
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 #research {
   background:#424B54;
   /* min-height: 386px; */
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 #hiring {
-  background:#EC4E20;
+  background: #EC4E20;
   /* min-height: 775px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
   #hiring p, #hiring h2 {
     text-align: left;
   }
 
+  #job-desc {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    background: #424B54;
+    border: #424B54;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    width: 220px;
+    margin-top: 20px;
+  }
+
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #333A41;
+    border-color: #333A41; 
+  }
+
 #footer {
   background:#424B54;
   /* min-height: 345px; */
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.footer-text {
+   opacity: 0.2;
 }

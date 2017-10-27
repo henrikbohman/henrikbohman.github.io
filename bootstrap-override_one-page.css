@@ -1,0 +1,77 @@
+/* Replace the default Bootstrap styles */
+
+
+* {
+  text-align: center;
+  font-family: Futura;
+  font-style: normal;
+}
+
+
+body {
+  background:#FEC0AA;
+}
+
+img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 72px;
+   height: 31px;
+   margin-top: -15px; /* Half the height */
+   margin-left: -31px; /* Half the width */
+}
+
+
+h1 {
+  color: #fff;
+  font-size: 3em;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2em;
+}
+
+h3 {
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: bold;
+  opacity: 0.5;
+  letter-spacing: 1px;
+
+}
+
+p {
+  font-size: 0.8em;
+  color:#fff;
+  font-weight: regular;
+}
+
+#header {
+  background:#FEC0AA;
+}
+
+#splash {
+  background:#FEC0AA;
+  /* min-height: 576px; */
+}
+
+#research {
+  background:#424B54;
+  /* min-height: 386px; */
+}
+
+#hiring {
+  background:#EC4E20;
+  /* min-height: 775px; */
+}
+
+  #hiring p, #hiring h2 {
+    text-align: left;
+  }
+
+#footer {
+  background:#424B54;
+  /* min-height: 345px; */
+}
