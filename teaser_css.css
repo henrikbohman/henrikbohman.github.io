@@ -1,0 +1,160 @@
+/* Replace the default Bootstrap styles */
+
+
+* {
+  text-align: center;
+  font-family: Futura, 'Lora';
+  font-style: normal;
+}
+
+body {
+    
+}
+
+
+h1 {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom:40px;
+}
+
+@media(max-width: 480px) {
+  h1 {
+    font-size: 2.2em;
+  }
+}
+
+h2 {
+  color: #fff;
+  font-size: 2em;
+}
+
+h3 {
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: bold;
+  opacity: 0.5;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+
+}
+
+p {
+  font-size: 0.8em;
+  color:#fff;
+  font-weight: 300; 
+}
+
+#header {
+  background:#FEC0AA;
+}
+  
+  a.navbar-brand {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .navbar-toggler {
+    border: 0px;
+  }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,78,32, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    }
+
+  .nav-link {
+    color: #EC4E20 !important;
+    text-decoration: underline;
+  }
+
+#splash {
+  background:#FEC0AA;
+  /* min-height: 576px; */
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+#intro {
+  background: url('img/intro_bg.png');
+}
+
+  #intro * {
+    color: #000; /* make all the text black */
+  }
+
+#app-desc {
+  background: #EC4E20; 
+}
+
+#research {
+  background:#424B54;
+  /* min-height: 386px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+  .uni-logo {
+    margin-bottom:20px;
+  }
+
+#improvements {
+  background: #FEC0AA;
+}
+
+#hiring {
+  background: #EC4E20;
+  /* min-height: 775px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+  #hiring p, #hiring h2 {
+    text-align: left;
+  }
+
+  #job-desc {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    width: 220px;
+    margin-top: 20px;
+  }
+
+    .btn-primary {
+      background: #EC4E20;
+      border: #EC4E20;
+    }
+
+    .btn-secondary {
+      background: #424B54;
+      border: #424B54;
+    }
+
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+      background-color: #333A41;
+      border-color: #333A41; 
+    }
+
+    .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+      background-color: #333A41;
+      border-color: #333A41; 
+    }
+
+#footer {
+  background:#424B54;
+  /* min-height: 345px; */
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.footer-text {
+   opacity: 0.2;
+}
